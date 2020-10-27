@@ -6,12 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty"
+        tools:ignore="MissingConstraints"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="36sp"
         android:text="Happy Birthday Soumya!"
         tools:ignore="MissingConstraints" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,10 +28,5 @@
         app:layout_constraintRight_toRightOf="parent"
         android:textSize="36sp"
         android:text="From Kshitij" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidparty"
-        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
