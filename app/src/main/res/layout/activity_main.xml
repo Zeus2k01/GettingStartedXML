@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:textSize="36sp"
         android:text="Happy Birthday Soumya!"
+        android:padding="20dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -27,6 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:textSize="36sp"
-        android:text="From Kshitij" />
+        android:text="From Kshitij"
+        android:padding="20dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
